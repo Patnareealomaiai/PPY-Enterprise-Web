@@ -17,7 +17,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
   <div class="container">
-    <a class="navbar-brand d-flex align-items-center" href="#">
+    <a class="navbar-brand d-flex align-items-center" href="Performance.html">
   <img src="picture/Logo.png" alt="PPY Enterprise Logo" style="height: 50px; width: auto;" class="me-2">
 </a>
     
@@ -25,14 +25,22 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link active" href="#">หน้าหลัก</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">ผลงาน</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">ติดต่อ</a></li>
-      </ul>
-    </div>
-  </div>
+   <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link active" href="Index.html">หน้าหลัก</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-link" href="Performance.html">ผลงาน</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-link" href="Contact.html">ติดต่อ</a>
+    </li>
+  </ul>
+</div>
+
 </nav>
 
 <section class="landing-section">
@@ -57,60 +65,91 @@
 <!-- Category -->
 <section class="py-5">
   <div class="container">
-    <div class="d-flex justify-content-between mb-4">
-      <h4 class="fw-bold">Explore by Category</h4>
-      <a href="#" class="text-decoration-none text-muted">ดูทั้งหมด ></a>
+    
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h4 class="fw-bold" style="color: #0b3a6f;">Explore by Category</h4>
+      <a href="#" class="text-decoration-none text-muted">View All ></a>
     </div>
 
     <div class="row g-4">
       
-      <div class="col-6 col-md-4 col-lg-3">
-        <div class="brand-card-custom h-100">
-          <div class="logo-box">
-            <img src="picture/HIKVISION.png" alt="HIKVISION">
+      <aside class="col-lg-3">
+        <div class="sidebar-container p-3 rounded-4 shadow-sm bg-white border">
+          <div class="search-wrapper mb-4">
+            <img src="picture/search.png"> &nbsp;
+            <input type="text" id="menuSearch" placeholder="Search">
           </div>
-          <div class="info-box">
-            <p class="brand-name">HIKVISION</p>
-            <div class="blue-bar">รายละเอียดเพิ่มเติม</div>
-          </div>
-        </div>
-      </div>
 
-      <div class="col-6 col-md-4 col-lg-3">
-        <div class="brand-card-custom h-100">
-          <div class="logo-box">
-            <img src="picture/unv.png" alt="UNV">
-          </div>
-          <div class="info-box">
-            <p class="brand-name">UNV</p>
-            <div class="blue-bar">รายละเอียดเพิ่มเติม</div>
-          </div>
+          <ul class="list-unstyled menu-list">
+            <li><a href="#" class="menu-item active">กล้องวงจรปิด</a></li>
+            <li><a href="#" class="menu-item">กล้องโซล่าเซลล์</a></li>
+            <li><a href="#" class="menu-item">กล้องติดรถยนต์</a></li>
+            <li><a href="#" class="menu-item">จานดาวเทียม</a></li>
+            <li><a href="#" class="menu-item">สัญญาณกันขโมย</a></li>
+            <li><a href="#" class="menu-item">เครื่องสแกนลายนิ้วมือ</a></li>
+            <li><a href="#" class="menu-item">มอเตอร์ประตูรีโมท</a></li>
+            <li><a href="#" class="menu-item">อุปกรณ์ไม้กั้นประตู</a></li>
+            <li><a href="#" class="menu-item">ระบบประตูคีย์การ์ด</a></li>
+            <li><a href="#" class="menu-item">เครื่องสำรองไฟ</a></li>
+            <li><a href="#" class="menu-item">เบ็ดเตล็ด</a></li>
+            <li><a href="#" class="menu-item">เน็ตบ้านไฟเบอร์</a></li>
+          </ul>
         </div>
-      </div>
+      </aside>
 
-      <div class="col-6 col-md-4 col-lg-3">
-        <div class="brand-card-custom h-100">
-          <div class="logo-box">
-            <img src="picture/ezviz.png" alt="EZVIZ">
+      <div class="col-lg-9">
+        <div class="row g-4">
+          
+          <div class="col-6 col-md-4">
+            <div class="brand-card-custom h-100">
+              <div class="logo-box">
+                <img src="picture/HIKVISION.png" alt="HIKVISION">
+              </div>
+              <div class="info-box text-center">
+                <p class="brand-name py-2">HIKVISION</p>
+                <div class="blue-bar-btn">เพิ่มเติม</div>
+              </div>
+            </div>
           </div>
-          <div class="info-box">
-            <p class="brand-name">EZVIZ</p>
-            <div class="blue-bar">รายละเอียดเพิ่มเติม</div>
-          </div>
-        </div>
-      </div>
 
-      <div class="col-6 col-md-4 col-lg-3">
-        <div class="brand-card-custom h-100">
-          <div class="logo-box">
-            <img src="picture/imou.png" alt="IMOU">
+          <div class="col-6 col-md-4">
+            <div class="brand-card-custom h-100">
+              <div class="logo-box">
+                <img src="picture/unv.png" alt="UNV">
+              </div>
+              <div class="info-box text-center">
+                <p class="brand-name py-2">UNV</p>
+                <div class="blue-bar-btn">เพิ่มเติม</div>
+              </div>
+            </div>
           </div>
-          <div class="info-box">
-            <p class="brand-name">IMOU</p>
-            <div class="blue-bar">รายละเอียดเพิ่มเติม</div>
+
+          <div class="col-6 col-md-4">
+            <div class="brand-card-custom h-100">
+              <div class="logo-box">
+                <img src="picture/ezviz.png" alt="EZVIZ">
+              </div>
+              <div class="info-box text-center">
+                <p class="brand-name py-2">Ezviz</p>
+                <div class="blue-bar-btn">เพิ่มเติม</div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
+
+          <div class="col-6 col-md-4">
+            <div class="brand-card-custom h-100">
+              <div class="logo-box">
+                <img src="picture/imou.png" alt="EZVIZ">
+              </div>
+              <div class="info-box text-center">
+                <p class="brand-name py-2">IMOU</p>
+                <div class="blue-bar-btn">เพิ่มเติม</div>
+              </div>
+            </div>
+          </div>
+
+
+      </div> </div> </div> </section>
 
     </div> </div>
 </section>
@@ -118,19 +157,35 @@
 <section class="bg-light py-5">
   <div class="container">
     <div class="d-flex justify-content-between mb-4">
-      <h4 class="fw-bold">Popular Product</h4>
-      <a href="#">View All</a>
+      <h4 class="fw-bold" style="color: #0b3a6f;" >Popular Product</h4>
+         <a href="#" class="text-decoration-none text-muted">View All ></a>
     </div>
 
     <div class="row g-4">
       <div class="col-md-4">
-        <div class="product-card"></div>
+        <div class="card h-100 border-0 shadow-sm product-card">
+          <img src="picture/1.png" class="card-img-top" alt="Product 1">
+          <div class="card-body">
+          </div>
+        </div>
       </div>
+
       <div class="col-md-4">
-        <div class="product-card"></div>
+        <div class="card h-100 border-0 shadow-sm product-card">
+          <img src="picture/2.png" class="card-img-top" alt="Product 2">
+          <div class="card-body">
+          
+          </div>
+        </div>
       </div>
+
       <div class="col-md-4">
-        <div class="product-card"></div>
+        <div class="card h-100 border-0 shadow-sm product-card">
+          <img src="picture/3.png" class="card-img-top" alt="Product 3">
+          <div class="card-body">
+            
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -140,7 +195,7 @@
 <section class="py-5 bg-white">
   <div class="container">
     <div class="text-center mb-5">
-      <h4 class="fw-bold">รับชมผลงานและบริการของเรา</h4>
+      <h3 class="bold" style="color: #0b3a6f;" >รับชมผลงานและบริการของเรา</h3>
       <p class="text-muted">วิดีโอแนะนำโซลูชันเทคโนโลยีจาก PPY Enterprise</p>
     </div>
 
@@ -159,24 +214,118 @@
 <!-- Service -->
 <section class="py-5">
   <div class="container">
-    <h4 class="fw-bold mb-4">บริการ พร้อมติดตั้ง</h4>
+    <h4 class="fw-bold" style="color: #0b3a6f;" >บริการ พร้อมติดตั้ง</h4>
     <div class="row g-4 text-center">
+      
       <div class="col-6 col-md-3">
-        <div class="service-card">นัดสำรวจหน้างาน</div>
+        <div class="service-card p-4 border rounded shadow-sm h-100 d-flex flex-column align-items-center justify-content-center">
+          <div class="service-icon-wrapper mb-3">
+            <img src="picture/Icon1.png" alt="นัดสำรวจ" class="img-fluid" style="width: 60px;">
+          </div>
+          <p class="mb-0 fw-semibold">นัดสำรวจหน้างาน</p>
+        </div>
       </div>
+
       <div class="col-6 col-md-3">
-        <div class="service-card">กำหนดจุดติดตั้ง</div>
+        <div class="service-card p-4 border rounded shadow-sm h-100 d-flex flex-column align-items-center justify-content-center">
+          <div class="service-icon-wrapper mb-3">
+            <img src="picture/Icon2.png" alt="กำหนดจุด" class="img-fluid" style="width: 60px;">
+          </div>
+          <p class="mb-0 fw-semibold">กำหนดจุดติดตั้ง</p>
+        </div>
       </div>
+
       <div class="col-6 col-md-3">
-        <div class="service-card">ทำใบเสนอราคา</div>
+        <div class="service-card p-4 border rounded shadow-sm h-100 d-flex flex-column align-items-center justify-content-center">
+          <div class="service-icon-wrapper mb-3">
+            <img src="picture/Icon3.png" alt="เสนอราคา" class="img-fluid" style="width: 60px;">
+          </div>
+          <p class="mb-0 fw-semibold">ทำใบเสนอราคา</p>
+        </div>
       </div>
+
       <div class="col-6 col-md-3">
-        <div class="service-card">มัดจำก่อนติดตั้ง</div>
+        <div class="service-card p-4 border rounded shadow-sm h-100 d-flex flex-column align-items-center justify-content-center">
+          <div class="service-icon-wrapper mb-3">
+            <img src="picture/Icon4.png" alt="มัดจำ" class="img-fluid" style="width: 60px;">
+          </div>
+          <p class="mb-0 fw-semibold">มัดจำก่อนติดตั้ง</p>
+        </div>
       </div>
+
     </div>
   </div>
 </section>
 <style>
+  /* Sidebar Container */
+  .sidebar-container {
+    border: 1px solid #f0f0f0;
+    position: sticky;
+    top: 90px; /* ให้เลื่อนตามตอน Scroll */
+  }
+
+  /* Search Wrapper ตามรูป */
+  .search-wrapper {
+    background-color: #f2f2f2;
+    border-radius: 12px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+  }
+
+  .search-icon {
+    font-size: 14px;
+    color: #888;
+    margin-right: 10px;
+  }
+
+  #menuSearch {
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 100%;
+    font-size: 15px;
+  }
+
+  /* Menu Item สไตล์ภาพตัวอย่าง */
+  .menu-item {
+    display: block;
+    padding: 10px 15px;
+    color: #334155;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-bottom: 2px;
+    transition: 0.2s;
+  }
+
+  .menu-item:hover {
+    background-color: #f8fafc;
+    color: var(--primary);
+  }
+
+  /* สีฟ้าอ่อนเวลาเลือกเมนู */
+  .menu-item.active {
+    background-color: #e0f2fe; /* สีตามรูปเป๊ะๆ */
+    color: #0369a1;
+    font-weight: 500;
+  }
+
+  /* ปรับแต่ง Brand Card ให้ดูสะอาดตาขึ้น */
+  .brand-card-custom {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    transition: 0.3s;
+  }
+  
+  .brand-card-custom:hover {
+    border-color: #e0f2fe;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  }
+
   :root {
     --primary: #0b3a6f;
     --secondary: #f58220;
@@ -560,4 +709,3 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
